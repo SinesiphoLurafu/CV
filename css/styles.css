@@ -16,7 +16,7 @@ img{
 #about{
     background-image: url(https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&h=350);
     color:black;
-    height: 600px;
+    height: 730px;
     font-family: 'Montserrat';
     padding: 0;
     margin: 0;
@@ -56,13 +56,14 @@ a{
 }
 #head{
     /* background-image: linear-gradient(#A7A2A9,grey); */
-    height: 1000px;
+    height: 730px;
     /* background-color: antiquewhite; */
     text-align: center;
     padding: 0;
     margin: 0; 
     font-family: 'Lato';
-    border: 0px;background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&h=350);
+    border: 0px;
+    background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&h=350);
     
 }
 body{
@@ -74,9 +75,10 @@ h2{
     text-align: center;
     font-size: 50px;
     font-weight: 2000;
+    font-family: 'Montserrat';
 }
 #interests{
-    height: 600px;
+    height: 700px;
     background-image: url(https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&h=350);
     font-family: 'Montserrat';
     font-size: 40px;
@@ -101,3 +103,31 @@ p{
     padding: 5px;
     font-family: 'Montserrat';
 }
+#contactIcon{
+    border-radius: 50%;
+}
+#highlight{
+    background-color: antiquewhite;
+    color: grey;
+    padding: 8px;
+
+}
+#skills{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://www.pexels.com/photo/black-and-white-blank-challenge-connect-262488/);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: auto;
+    grid-gap:1em;
+    grid-template-areas:
+    "one1 two2 ";
+}
+.one{
+    grid-area:one1;
+}
+.two{
+   grid-area:two2;
+}	
