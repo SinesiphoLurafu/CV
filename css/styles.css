@@ -5,22 +5,42 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu');
 @import url('https://fonts.googleapis.com/css?family=Gaegu|Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Gaegu|Lato|Open+Sans');
-
-body{
-    background-color: white;
-
+html{
+    font-family: 'Montserrat';
+}
+.top {
+    background-color: antiquewhite;;
+    overflow: hidden;
+    position: fixed;
+    width: auto;
+    text-align: center;
+    width: 100%;
+    /* padding-left: 350px; */
+}
+.top a {
+   
+    color: grey;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.top a:hover {
+    background-color: #ddd;
+    color: black;
 }
 img{
     width: fit-content;
 }
 #about{
-    background-image: url(https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&h=350);
+    /* background-image: url(https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&h=350); */
     color:black;
-    height: 730px;
+    height: 600px;
     font-family: 'Montserrat';
-    padding: 0;
+    padding-top: 150px;
+    /* padding: 0; */
     margin: 0;
-    font-size: 40px;
+    font-size: 20px;
 }
 p{
     display: inline-block;
@@ -28,17 +48,15 @@ p{
 #div-inline{
     display: inline-flex;
     padding: 20px;
+    text-align: center;
     
 }
 ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-li{
-    float: left;
     
+    list-style-type: none;
+    text-align: center;
 }
+
 a{
     display: inline-block;
     padding: 8px;
@@ -59,8 +77,9 @@ a{
     height: 730px;
     /* background-color: antiquewhite; */
     text-align: center;
-    padding: 0;
+    padding-top: 100px;
     margin: 0; 
+    font-size: 100px;
     font-family: 'Lato';
     border: 0px;
     background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&h=350);
@@ -69,23 +88,26 @@ a{
 body{
     padding: 0px;
     margin: 0px;
-    background-color: grey;
+    background-color: #E9EAEA;
+    text-align: center;
+    width: 100%;
 }
 h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 2000;
     font-family: 'Montserrat';
 }
 #interests{
-    height: 700px;
-    background-image: url(https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&h=350);
+    height: 600px; 
+    padding-top: 150px;
+    /* background-image: url(https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&h=350); */
     font-family: 'Montserrat';
-    font-size: 40px;
+    font-size: 20px;
 
 }
 h1{
-    font-size: 80px;
+    font-size: 50px;
 }
 p{
     font-family: 'Montserrat';
@@ -94,18 +116,20 @@ p{
 }
 #education{
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 30px;
-    height: 750px;
-    background-image: url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&h=350);
+    height: 800px;
+    padding-top: 40px;
+    /* background-image: url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&h=350); */
 }
 #contact{
-    padding: 5px;
+    padding-top: 50px;
     font-family: 'Montserrat';
+    height: 600px;
 }
-#contactIcon{
+/* #contactIcon{
     border-radius: 50%;
-}
+} */
 #highlight{
     background-color: antiquewhite;
     color: grey;
@@ -115,19 +139,42 @@ p{
 #skills{
     height: 700px;
     width: 100%;
-    background-image: url(https://www.pexels.com/photo/black-and-white-blank-challenge-connect-262488/);
+    padding-top: 150px;
+    /* background-image: url(https://www.pexels.com/photo/black-and-white-blank-challenge-connect-262488/); */
 }
-.wrapper{
-    display: grid;
-    grid-template-columns:50% 50%;
-    grid-template-rows: auto;
-    grid-gap:1em;
-    grid-template-areas:
-    "one1 two2 ";
+
+
+/* div{
+    text-align: center;
+    width
+} */
+#center{
+    width: 700px;
+    text-align: center;
 }
-.one{
-    grid-area:one1;
+.icon{
+    border-radius: 20%;
+    width: 120px;
+    padding: 20px;
 }
-.two{
-   grid-area:two2;
-}	
+#contactlist{
+    padding: 20px;
+}
+#inportfolio{
+    display: inline-flex;
+
+}
+#portpic{
+    width: 400px;
+    height: 200px;
+}
+#portfolio{
+    padding-top: 60px;
+    height: 600px;
+}
+#inportfolio div{
+    padding: 15px;
+}
+span{
+    font-weight: bold;
+}

@@ -3,36 +3,34 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sinesipho Lurafu||CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
     <script src="main.js"></script>
-    <script>
-    $(function(){
-        $('.icon').hover(function(){
-            $('.icon').r;
-        });
-    });
-    </script>
+    
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Interests</a></li>
-            <li><a href="#">Sklls & Abilities</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Contact</a></li>
+    <div class="top">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#skills">Skills & Abilities</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
 
-        </ul>
-    </header>
+
+            
+
+    </div>
     <div id="head"><br>
             <h1>Sinesipho Lurafu</h1>
             <h2>Junior Web Developer</h2>
     </div>
     <div id="about">
         <h2 >About myself</h2>
-        <section>
+        <p id = "center">
             I am a fast learner and I like to learn new stuff. I am very optimistic about life and enjoy
             being around people who generate positive energy. 
             I am considerate, courageous and composed.
@@ -44,65 +42,84 @@
     </div>
     
     <div id="interests">
-        <h2>My Interests:</h2>
-        <section>
-            I love to read, eat and play mind games. In my spare time, I like spending time with my family,
-            watching modern animated movies and baking(trying out new recipes).  
-        </section>
+        <h2>My Interests</h2>
+        <p id = "center">
+            <!-- I love to read, eat and play mind games. In my spare time, I like spending time with my family,
+            watching modern animated movies and baking(trying out new recipes).   -->
+            <ul>
+                <li><img src="images/open-book.png" alt="book icon">  Reading</li>
+                <li><img src="images/cupcake.png" alt="">  Baking</li>
+                <li><img src="images/jigsaw.png" alt="">  Playing problem-solving games</li>
+                <li><img src="images/film-roll.png" alt="">  Watching animated movies</li>
+                <li><img src="images/insurance.png" alt="">  Spending quality time with my family</li>
+            </ul>
+        </p>
     </div>
     <div id="skills">
         <h2>My Skills and Abilities</h2>
         <div id="div-inline">
-            <div><img src="images/html.png" class="icon" alt="HTML icon"></div>
-            <div><img src="images/jquerytt.png" class="icon" alt="jQuery icon"></div>
-            <div><img src="images/css.png" class="icon" alt="CSS icon"></div>
-            <div><img src="images/phpt.png" class="icon" alt="PHP icon"></div>
-            <div><img src="images/mysql.png" class="icon" alt="Mysql icon"></div>
+            <div><img src="images/html1.png" class="icon" alt="HTML icon"></div>
+            <div><img src="images/jquery1.png" class="icon" alt="jQuery icon"></div>
+            <div><img src="images/css1.png" class="icon" alt="CSS icon"></div>
+            <div><img src="images/php1.png" class="icon" alt="PHP icon"></div>
+            <div><img src="images/mysql1.png" class="icon" alt="Mysql icon"></div>
         </div>
         
     </div>
+    <div id ="portfolio">
+        <h2>Portfolio</h2>
+    <div id="inportfolio">
+        <div><img src="images/jokes.png" alt="" id="portpic"><br><a href="https://github.com/SinesiphoLurafu/jokesAPI"><span>Jokes</span></a>  <br> Views Top 10 jokes rated jokes </div>
+        <div><img src="images/quiz.png" alt="" id="portpic"><br><a href="https://github.com/SinesiphoLurafu/Quiz1"><span>Quiz</span></a> <br>A general knowledge quiz with 20 questions</div>
+        <div><img src="images/todo.png" alt="" id="portpic"><br><a href="https://github.com/SinesiphoLurafu/todoProject"><span>Todo List</span></a> <br>Allows a person to record a task and set the date it needs to be dues by. Also allows a person to delete or edit a task.</div>
+    </div>
+    </div>
     <div id="education">
-            <h2>Education:</h2>
+            <h2>Education</h2>
         <div class = "wrapper">
             
             <div class = "one">
-                <section>
-                    <h3>Centre of Science and Technology</h3><br><br>
+                <p id = "center">
+                    <h3>Centre of Science and Technology</h3><br>
                    
-                    Matric <br><br>
-                    2011-2015 <br><br>
-                    IsiXhosa Home Language <br>
-                    English First Additional Language <br>
+                    Matric(2011-2015)<br><br>
+                    
+                   
                     Mathematics <br>
                     Physical Science <br>
                     Life Science <br>
                     Information Technology <br>
-                    Life Orientation 
-                </section>
+                    
+                </p>
             </div>
             <div class ="two">
-                <section>
-                    <h3>CodeSpace</h3><br><br>
+                <p id = "center">
+                    <h3>CodeSpace</h3><br>
                     June-September 2018 <br><br>
-                    I enrolled into CodeSpace's 13 week programme <br>
-                    and I learnt HTML, CSS, PHP, JQuery <br>
-                    and MySQL.
-                </section>
+                    <ul>
+                        <li>Design Thinking</li>
+                        <li>Professional Development</li>
+                        <li>Programming (HTML, CSS, jQuery, PHP and MySQL)</li>
+                    </ul>
+                </p>
             </div>
             
         </div>
     </div>
+    
     <div id="contact">
     <h2>Contact details</h2>
     <div>
-    <img src="images/call.png" alt="call icon" id = "contactIcon">
-    <img src="images/email.png" alt="" id = "contactIcon">
-    <img src="images/git-hub.png" alt="" id = "contactIcon">
+    <ul id="floatlist">
+        <li id="contactlist"><a href="tel:0652396336"><img src="images/phone-symbol-of-an-auricular-inside-a-circle.png" alt="call icon" id = "contactIcon"></a></li>065 239 6336
+        <li id="contactlist"><a href="mailto:sinesipholurafu@gmail.com"><img src="images/arroba (1).png" alt="email icon" id = "contactIcon"></a></li>sinesipholurafu@gmail.com
+        <li id="contactlist"><a href="https://github.com/SinesiphoLurafu"><img src="images/github.png" alt="github icon" id = "contactIcon"></a></li>https://github.com/SinesiphoLurafu
+    </ul>
     </div>
     <div>
-        <p id="highlight" >065-239-6336</p>
-        <p><a href="mailto:sinesipholurafu@gmail.com">sinesipholurafu@gmail.com</a></p>
-        <p><a href="https://github.com/SinesiphoLurafu">SinesiphoLurafu</a></p>
+        
+ 
+       
     </div>
     </div>
 </body>
